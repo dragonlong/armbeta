@@ -1,0 +1,38 @@
+Day 1:
+install Ubuntu with U disk, Etcher(reboot, click some buttons);
+Internet Connection with manual IPv4 set up:DNS Server, Web Gateway, Network Mask, IP, ping;
+Shadowsocks VPN with server, local config file, and system setup;
+
+ubuntu_version="$(lsb_release -r)"
+CUDNN_URL="http://developer.download.nvidia.com/compute/redist/cudnn/v5.1/cudnn-8.0-linux-x64-v5.1.tgz"
+wget -c ${CUDNN_URL}
+sudo tar -xzf cudnn-8.0-linux-x64-v5.1.tgz -C /usr/local
+
+
+
+Day 2:
+Phase I Exploration on Demo:
+1.MIT-Princeton Package
+Overall Framework: first object segmentation with deep learning architecture, then Pose estimation with either point cloud matching or SIFT/3DMatch ,
+Vision System    :
+
+SPLATNet from Umass and Nvidia
+Fingers Demo with real-sense
+
+
+
+Environment set-up with CUDA, OpenCV, caffe, ROS, Pytorch, tensorflow
+https://laylatadjpour.wordpress.com/2017/05/29/installing-gtx-1080-ti-drivers-cuda-8-0-on-ubuntu-16-04/
+
+Install CUDA, do somethings before install the driver
+
+Hardware: 1050 Ti/1080 Ti,
+from Nvidia website, we get to know that 384 version driver support both graphics cards
+Install CUDA(apt-get, default driver),
+
+Take down GPU, forbid nouveau,
+then enter console mode(reinstall Nvidia Driver 384), sudo reboot
+
+
+Group work plan;
+GPU + mechanical frame + Bulb;
