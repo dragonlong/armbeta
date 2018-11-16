@@ -1,0 +1,12 @@
+<launch>
+  <!-- <include file="$(find data_capture)/launch/data_capture_demo.launch"/> -->
+  <!-- <node pkg="image_view" type="image_saver" name="image_saver">
+    <param name="save_all_image" value="false"/>
+    <param name="filename_format" value="/media/dragonx/data/robot_meta/frame%4d.%s"/>
+    <remap from="/image" to="/camera/color/image_raw"/>
+  </node> -->
+  <node pkg="data_capture" type="image_capture_node" name="image_capture_node" output="screen">
+      <param name="print_debug" value="true"/>
+  </node>
+
+</launch>

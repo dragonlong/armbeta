@@ -1,0 +1,2 @@
+data_capture:mask_rcnn_ros:pose_estimation:realsense-2.0.3/realsense2_camera
+-DCATKIN_DEVEL_PREFIX=/home/dragonx/catkin_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/dragonx/catkin_workspace/install -G Unix Makefiles

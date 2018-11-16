@@ -1,0 +1,29 @@
+# Predicted object pose translation (x,y,z in world coordinates)
+ 1.58423181e+00	 -1.32904395e-01	  1.10409334e+00	
+
+# Predicted object pose rotation (x,y,z,w object-to-world quaternion)
+-4.67278992e-01	 -4.49449280e-01	 -5.44667944e-01	  5.31961013e-01	
+
+# Segmented object point cloud median (x,y,z in world coordinates)
+ 1.57822048e+00	 -1.28000186e-01	  1.12544856e+00	
+
+# Segmented object point cloud PCA rotation (x,y,z,w object-to-world quaternion)
+-4.91380787e-01	 -3.55025428e-01	 -5.16564631e-01	  6.04700629e-01	
+
+# Segmented object point cloud PCA variance (in PC directions)
+ 2.47876233e-03	  1.05876199e-03	  1.12482634e-04	
+
+# Segmented object point cloud centroid/mean (x,y,z in world coordinates)
+ 1.57272265e+00	 -1.25885224e-01	  1.12595001e+00	
+
+# Segmented object point cloud x-range in world coordinates (bounding box in x-direction)
+ 1.52990224e+00	  1.63989717e+00	
+
+# Segmented object point cloud y-range in world coordinates (bounding box in y-direction)
+-1.34926711e-01	 -1.22516966e-01	
+
+# Segmented object point cloud z-range in world coordinates (bounding box in z-direction)
+ 1.04063511e+00	  1.16443582e+00	
+
+# Prediction confidence score
+0.72224216132822217

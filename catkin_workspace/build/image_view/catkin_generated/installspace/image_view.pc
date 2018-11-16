@@ -1,0 +1,8 @@
+prefix=/home/dragonx/catkin_workspace/install
+
+Name: image_view
+Description: Description of image_view
+Version: 1.12.23
+Cflags: -I/home/dragonx/catkin_workspace/install/include
+Libs: -L/home/dragonx/catkin_workspace/install/lib 
+Requires: dynamic_reconfigure
